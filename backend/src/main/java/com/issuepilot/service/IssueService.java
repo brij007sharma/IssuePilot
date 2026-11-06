@@ -15,6 +15,17 @@ import com.issuepilot.entity.User;
 import com.issuepilot.exception.ResourceNotFoundException;
 import com.issuepilot.repository.IssueRepository;
 import com.issuepilot.repository.ProjectRepository;
+import com.issuepilot.ai.dto.DuplicateDetectionAiRequest;
+import com.issuepilot.ai.dto.DuplicateDetectionAiResponse;
+import com.issuepilot.ai.dto.DuplicateIssueCandidate;
+import com.issuepilot.dto.DuplicateCheckRequest;
+import com.issuepilot.dto.DuplicateCheckResponse;
+
+import java.util.List;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.server.ResponseStatusException;
+import com.issuepilot.ai.dto.DuplicateIssueMatch;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -218,6 +229,80 @@ public class IssueService {
 
         return IssueResponse.fromEntity(updatedIssue);
     }
+    
+    public DuplicateCheckResponse checkDuplicates(
+            DuplicateCheckRequest request
+    ) {
+
+        // 1. Find the project.
+        Project project = projectRepository.findById(request.projectId())
+                .orElseThrow(() ->
+                        new ResourceNotFoundException(
+                                "Project not found with id: " + request.projectId()
+                        )
+                );
+
+        // 2. Verify that the current user can access this project.
+        checkProjectAccess(project);
+
+        // 3. Retrieve existing issues from this project only.
+        List<DuplicateIssueCandidate> candidates =
+                issueRepository
+                        .findTop200ByProject_IdOrderByCreatedAtDesc(project.getId())
+                        .stream()
+                        .map(issue -> new DuplicateIssueCandidate(
+                                issue.getId(),
+                                issue.getTitle(),
+                                issue.getDescription()
+                        ))
+                        .toList();
+
+        // 4. Prepare the request for the Python AI service.
+        DuplicateDetectionAiRequest aiRequest =
+                new DuplicateDetectionAiRequest(
+                        request.title(),
+                        request.description() == null ? "" : request.description(),
+                        candidates,
+                        0.75,
+                        5
+                );
+
+        // 5. Ask the AI service to detect duplicates.
+        try {
+
+            DuplicateDetectionAiResponse aiResponse =
+                    aiClient.detectDuplicates(aiRequest);
+
+            if (aiResponse == null) {
+                throw new ResponseStatusException(
+                        HttpStatus.SERVICE_UNAVAILABLE,
+                        "AI service returned an empty response"
+                );
+            }
+
+            List<DuplicateIssueMatch> matches =
+                    aiResponse.matches() == null
+                            ? List.of()
+                            : aiResponse.matches();
+
+            return new DuplicateCheckResponse(
+                    !matches.isEmpty(),
+                    matches,
+                    aiResponse.threshold(),
+                    aiResponse.model()
+            );
+
+        } catch (RestClientException exception) {
+
+            log.error("AI duplicate detection service is unavailable", exception);
+
+            throw new ResponseStatusException(
+                    HttpStatus.SERVICE_UNAVAILABLE,
+                    "AI duplicate detection is temporarily unavailable"
+            );
+        }
+    }
+
 
     public void deleteIssue(Long id) {
 

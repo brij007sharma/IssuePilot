@@ -11,6 +11,8 @@ import jakarta.validation.Valid;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import com.issuepilot.dto.DuplicateCheckRequest;
+import com.issuepilot.dto.DuplicateCheckResponse;
 
 @RestController
 @RequestMapping("/api/issues")
@@ -45,6 +47,14 @@ public class IssueController {
                         projectId,
                         pageable
                 )
+        );
+    }
+    @PostMapping("/duplicate-check")
+    public ResponseEntity<DuplicateCheckResponse> checkDuplicates(
+            @Valid @RequestBody DuplicateCheckRequest request) {
+
+        return ResponseEntity.ok(
+                issueService.checkDuplicates(request)
         );
     }
 
