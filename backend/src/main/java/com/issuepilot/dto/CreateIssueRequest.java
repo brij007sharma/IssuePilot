@@ -1,3 +1,4 @@
+
 package com.issuepilot.dto;
 
 import com.issuepilot.entity.IssuePriority;
@@ -14,7 +15,6 @@ public class CreateIssueRequest {
 
     private String description;
 
-    @NotNull(message = "Priority is required")
     private IssuePriority priority;
 
     @NotNull(message = "Status is required")

@@ -1,0 +1,261 @@
+title,description,priority,group_id
+Bug report: Update footer text,An issue has been reported where Change the copyright information in the footer.,LOW,LOW_8
+Bug report: Database failure,An issue has been reported where The production database is down and no users can access the application.,CRITICAL,CRITICAL_1
+Reported problem - Report generation failure,"Currently, Users cannot generate important business reports.",HIGH,HIGH_7
+Production API outage,The production API is unavailable and all incoming requests fail.,CRITICAL,CRITICAL_12
+Database failure,The production database is down and no users can access the application.,CRITICAL,CRITICAL_1
+Bug report: Authentication errors,An issue has been reported where Users are frequently receiving login errors.,HIGH,HIGH_2
+Problem with Update footer text,The team has identified that Change the copyright information in the footer.,LOW,LOW_8
+Problem with Occasional payment delay,The team has identified that Some payments take longer to process but eventually complete successfully.,MEDIUM,MEDIUM_11
+Production deployment failure,A deployment has made the entire service unavailable.,CRITICAL,CRITICAL_9
+Issue reported: Complete database outage,Users have reported that The database is completely unavailable and every user is unable to access the application.,CRITICAL,CRITICAL_10
+Problem with Slow dashboard,The team has identified that The dashboard takes several seconds to load.,MEDIUM,MEDIUM_0
+Reported problem - Production server outage,"Currently, The production server is completely unavailable.",CRITICAL,CRITICAL_0
+Problem with Session timeout issue,The team has identified that Some users are logged out earlier than expected.,MEDIUM,MEDIUM_8
+Bug report: Critical data loss,An issue has been reported where Important customer records have disappeared from production.,CRITICAL,CRITICAL_5
+Bug report: Session timeout issue,An issue has been reported where Some users are logged out earlier than expected.,MEDIUM,MEDIUM_8
+Add tooltips,Add helpful tooltips to settings icons.,LOW,LOW_5
+Bug report: Application crashes,An issue has been reported where The application crashes during common operations.,HIGH,HIGH_6
+Reported problem - Intermittent timeout,"Currently, Some requests occasionally time out but work after retrying.",MEDIUM,MEDIUM_1
+Issue reported: Database connection errors,"Users have reported that The application intermittently loses database connections for a subset of requests, while most users can continue working.",HIGH,HIGH_9
+Reported problem - Update documentation,"Currently, Add examples and explanations to the documentation.",LOW,LOW_2
+Issue reported: Add profile avatar,Users have reported that Display a profile picture beside the username.,LOW,LOW_3
+Bug report: Improve button styling,An issue has been reported where Update the visual styling of the submit button.,LOW,LOW_0
+Reported problem - Authentication errors,"Currently, Users are frequently receiving login errors.",HIGH,HIGH_2
+Bug report: API endpoint failure,An issue has been reported where An important API endpoint is returning server errors.,HIGH,HIGH_4
+Problem with Payment processing error,"The team has identified that Some customers experience occasional payment declines, but retries usually succeed and checkout remains available.",HIGH,HIGH_1
+Reported problem - Add profile avatar,"Currently, Display a profile picture beside the username.",LOW,LOW_3
+Bug report: Add tooltips,An issue has been reported where Add helpful tooltips to settings icons.,LOW,LOW_5
+Bug report: Intermittent database errors,An issue has been reported where Database connections fail for some requests but the application remains available to most users.,HIGH,HIGH_10
+Issue reported: Improve button styling,Users have reported that Update the visual styling of the submit button.,LOW,LOW_0
+Reported problem - Payment page UI improvement,"Currently, Improve the visual appearance of the payment page without changing payment functionality.",LOW,LOW_11
+Reported problem - Filter malfunction,"Currently, A dashboard filter occasionally displays incorrect results.",MEDIUM,MEDIUM_7
+Intermittent timeout,Some requests occasionally time out but work after retrying.,MEDIUM,MEDIUM_1
+Issue reported: Application unavailable,Users have reported that The application is unavailable for every customer.,CRITICAL,CRITICAL_4
+Issue reported: Production API outage,Users have reported that The production API is unavailable and all incoming requests fail.,CRITICAL,CRITICAL_12
+Problem with Add sorting option,The team has identified that Allow users to sort records by date and name.,LOW,LOW_7
+Security breach,Unauthorized users have gained access to sensitive production data.,CRITICAL,CRITICAL_3
+Bug report: Database documentation update,An issue has been reported where Improve the documentation describing database configuration and setup.,LOW,LOW_10
+Report generation failure,Users cannot generate important business reports.,HIGH,HIGH_7
+Update footer text,Change the copyright information in the footer.,LOW,LOW_8
+Reported problem - Critical data loss,"Currently, Important customer records have disappeared from production.",CRITICAL,CRITICAL_5
+Reported problem - API errors affecting users,"Currently, An important API endpoint fails for a subset of users while the remaining endpoints work.",HIGH,HIGH_12
+Bug report: Minor database latency,An issue has been reported where Database queries take slightly longer than usual but all requests complete successfully.,MEDIUM,MEDIUM_10
+Bug report: Checkout malfunction,An issue has been reported where The checkout feature is broken for many customers.,HIGH,HIGH_3
+Problem with Add profile avatar,The team has identified that Display a profile picture beside the username.,LOW,LOW_3
+Bug report: Incorrect search results,An issue has been reported where Search sometimes returns incomplete results.,MEDIUM,MEDIUM_2
+Bug report: Checkout outage,An issue has been reported where Customers cannot complete any purchases.,CRITICAL,CRITICAL_8
+Reported problem - Database connection errors,"Currently, The application intermittently loses database connections for a subset of requests, while most users can continue working.",HIGH,HIGH_9
+Search functionality broken,Many users cannot search for required records.,HIGH,HIGH_8
+Problem with Critical data loss,The team has identified that Important customer records have disappeared from production.,CRITICAL,CRITICAL_5
+API endpoint failure,An important API endpoint is returning server errors.,HIGH,HIGH_4
+Change placeholder text,Update the placeholder text in the search field.,LOW,LOW_6
+Bug report: Pagination malfunction,An issue has been reported where Pagination does not work correctly with large datasets.,MEDIUM,MEDIUM_3
+Issue reported: Profile update issue,Users have reported that Profile changes sometimes require a page refresh.,MEDIUM,MEDIUM_5
+Issue reported: Slow dashboard,Users have reported that The dashboard takes several seconds to load.,MEDIUM,MEDIUM_0
+Issue reported: Document upload failure,Users have reported that Many users cannot upload important documents.,HIGH,HIGH_0
+Problem with Checkout outage,The team has identified that Customers cannot complete any purchases.,CRITICAL,CRITICAL_8
+Bug report: API documentation enhancement,An issue has been reported where Add examples and descriptions to the API documentation.,LOW,LOW_12
+Reported problem - Slow API response,"Currently, A non-critical API endpoint responds slowly but remains functional for all users.",MEDIUM,MEDIUM_12
+Bug report: Improve page spacing,An issue has been reported where Adjust spacing between dashboard sections.,LOW,LOW_4
+Bug report: Slow dashboard,An issue has been reported where The dashboard takes several seconds to load.,MEDIUM,MEDIUM_0
+Intermittent database errors,Database connections fail for some requests but the application remains available to most users.,HIGH,HIGH_10
+Bug report: Production server outage,An issue has been reported where The production server is completely unavailable.,CRITICAL,CRITICAL_0
+Problem with Complete database outage,The team has identified that The database is completely unavailable and every user is unable to access the application.,CRITICAL,CRITICAL_10
+Reported problem - Payment processing error,"Currently, Some customers experience occasional payment declines, but retries usually succeed and checkout remains available.",HIGH,HIGH_1
+Document upload failure,Many users cannot upload important documents.,HIGH,HIGH_0
+Payment system outage,All customer payment transactions are failing.,CRITICAL,CRITICAL_2
+Bug report: Report generation failure,An issue has been reported where Users cannot generate important business reports.,HIGH,HIGH_7
+Reported problem - Improve UI responsiveness,"Currently, Make the settings page layout more visually consistent.",LOW,LOW_9
+Authentication outage,No users can log into the application.,CRITICAL,CRITICAL_6
+Improve page spacing,Adjust spacing between dashboard sections.,LOW,LOW_4
+Issue reported: Production deployment failure,Users have reported that A deployment has made the entire service unavailable.,CRITICAL,CRITICAL_9
+Issue reported: Partial payment failures,Users have reported that Some payment requests fail repeatedly while other customers can complete transactions.,HIGH,HIGH_11
+Problem with Production server outage,The team has identified that The production server is completely unavailable.,CRITICAL,CRITICAL_0
+Reported problem - Slow API response,"Currently, One non-critical API endpoint responds slightly slower than usual, but requests complete successfully and users can continue working.",MEDIUM,MEDIUM_6
+Reported problem - Add sorting option,"Currently, Allow users to sort records by date and name.",LOW,LOW_7
+Issue reported: Image loading delay,Users have reported that Images occasionally take too long to load.,MEDIUM,MEDIUM_9
+Problem with Database connection errors,"The team has identified that The application intermittently loses database connections for a subset of requests, while most users can continue working.",HIGH,HIGH_9
+Bug report: Profile update issue,An issue has been reported where Profile changes sometimes require a page refresh.,MEDIUM,MEDIUM_5
+Application crashes,The application crashes during common operations.,HIGH,HIGH_6
+Problem with Production deployment failure,The team has identified that A deployment has made the entire service unavailable.,CRITICAL,CRITICAL_9
+Bug report: Partial payment failures,An issue has been reported where Some payment requests fail repeatedly while other customers can complete transactions.,HIGH,HIGH_11
+Issue reported: Minor database latency,Users have reported that Database queries take slightly longer than usual but all requests complete successfully.,MEDIUM,MEDIUM_10
+Problem with Authentication errors,The team has identified that Users are frequently receiving login errors.,HIGH,HIGH_2
+Issue reported: Add tooltips,Users have reported that Add helpful tooltips to settings icons.,LOW,LOW_5
+Issue reported: Checkout malfunction,Users have reported that The checkout feature is broken for many customers.,HIGH,HIGH_3
+Reported problem - API outage,"Currently, All production API requests are failing.",CRITICAL,CRITICAL_7
+Reported problem - Partial payment failures,"Currently, Some payment requests fail repeatedly while other customers can complete transactions.",HIGH,HIGH_11
+Reported problem - Payment system outage,"Currently, All customer payment transactions are failing.",CRITICAL,CRITICAL_2
+Issue reported: Payment page UI improvement,Users have reported that Improve the visual appearance of the payment page without changing payment functionality.,LOW,LOW_11
+Problem with Database documentation update,The team has identified that Improve the documentation describing database configuration and setup.,LOW,LOW_10
+Bug report: Production API outage,An issue has been reported where The production API is unavailable and all incoming requests fail.,CRITICAL,CRITICAL_12
+Reported problem - Authentication outage,"Currently, No users can log into the application.",CRITICAL,CRITICAL_6
+Add sorting option,Allow users to sort records by date and name.,LOW,LOW_7
+Production server outage,The production server is completely unavailable.,CRITICAL,CRITICAL_0
+Update documentation,Add examples and explanations to the documentation.,LOW,LOW_2
+Problem with Partial payment failures,The team has identified that Some payment requests fail repeatedly while other customers can complete transactions.,HIGH,HIGH_11
+Bug report: Add profile avatar,An issue has been reported where Display a profile picture beside the username.,LOW,LOW_3
+Problem with API outage,The team has identified that All production API requests are failing.,CRITICAL,CRITICAL_7
+Issue reported: Search functionality broken,Users have reported that Many users cannot search for required records.,HIGH,HIGH_8
+Problem with Add dark mode,The team has identified that Introduce a dark mode option in application settings.,LOW,LOW_1
+Problem with Checkout malfunction,The team has identified that The checkout feature is broken for many customers.,HIGH,HIGH_3
+Reported problem - Application crashes,"Currently, The application crashes during common operations.",HIGH,HIGH_6
+Bug report: Authentication outage,An issue has been reported where No users can log into the application.,CRITICAL,CRITICAL_6
+Reported problem - Improve button styling,"Currently, Update the visual styling of the submit button.",LOW,LOW_0
+Problem with Change placeholder text,The team has identified that Update the placeholder text in the search field.,LOW,LOW_6
+Reported problem - Improve page spacing,"Currently, Adjust spacing between dashboard sections.",LOW,LOW_4
+Issue reported: API documentation enhancement,Users have reported that Add examples and descriptions to the API documentation.,LOW,LOW_12
+Reported problem - Slow dashboard,"Currently, The dashboard takes several seconds to load.",MEDIUM,MEDIUM_0
+Partial payment failures,Some payment requests fail repeatedly while other customers can complete transactions.,HIGH,HIGH_11
+Reported problem - Add tooltips,"Currently, Add helpful tooltips to settings icons.",LOW,LOW_5
+Payment processing error,"Some customers experience occasional payment declines, but retries usually succeed and checkout remains available.",HIGH,HIGH_1
+Problem with Authentication outage,The team has identified that No users can log into the application.,CRITICAL,CRITICAL_6
+Bug report: Slow API response,"An issue has been reported where One non-critical API endpoint responds slightly slower than usual, but requests complete successfully and users can continue working.",MEDIUM,MEDIUM_6
+Problem with Minor database latency,The team has identified that Database queries take slightly longer than usual but all requests complete successfully.,MEDIUM,MEDIUM_10
+Issue reported: Slow API response,"Users have reported that One non-critical API endpoint responds slightly slower than usual, but requests complete successfully and users can continue working.",MEDIUM,MEDIUM_6
+Reported problem - Production deployment failure,"Currently, A deployment has made the entire service unavailable.",CRITICAL,CRITICAL_9
+Slow API response,A non-critical API endpoint responds slowly but remains functional for all users.,MEDIUM,MEDIUM_12
+Reported problem - Delayed notifications,"Currently, Email notifications are delivered later than expected.",MEDIUM,MEDIUM_4
+Issue reported: Authentication errors,Users have reported that Users are frequently receiving login errors.,HIGH,HIGH_2
+Issue reported: Slow API response,Users have reported that A non-critical API endpoint responds slowly but remains functional for all users.,MEDIUM,MEDIUM_12
+Problem with Improve page spacing,The team has identified that Adjust spacing between dashboard sections.,LOW,LOW_4
+Issue reported: Update footer text,Users have reported that Change the copyright information in the footer.,LOW,LOW_8
+Bug report: Add sorting option,An issue has been reported where Allow users to sort records by date and name.,LOW,LOW_7
+Issue reported: Pagination malfunction,Users have reported that Pagination does not work correctly with large datasets.,MEDIUM,MEDIUM_3
+Bug report: Security breach,An issue has been reported where Unauthorized users have gained access to sensitive production data.,CRITICAL,CRITICAL_3
+Problem with Filter malfunction,The team has identified that A dashboard filter occasionally displays incorrect results.,MEDIUM,MEDIUM_7
+Database connection errors,"The application intermittently loses database connections for a subset of requests, while most users can continue working.",HIGH,HIGH_9
+Reported problem - API documentation enhancement,"Currently, Add examples and descriptions to the API documentation.",LOW,LOW_12
+Add profile avatar,Display a profile picture beside the username.,LOW,LOW_3
+Issue reported: API errors affecting users,Users have reported that An important API endpoint fails for a subset of users while the remaining endpoints work.,HIGH,HIGH_12
+Slow dashboard,The dashboard takes several seconds to load.,MEDIUM,MEDIUM_0
+Issue reported: Add sorting option,Users have reported that Allow users to sort records by date and name.,LOW,LOW_7
+Problem with Profile update issue,The team has identified that Profile changes sometimes require a page refresh.,MEDIUM,MEDIUM_5
+Problem with Slow API response,The team has identified that A non-critical API endpoint responds slowly but remains functional for all users.,MEDIUM,MEDIUM_12
+Issue reported: Database documentation update,Users have reported that Improve the documentation describing database configuration and setup.,LOW,LOW_10
+Bug report: Search functionality broken,An issue has been reported where Many users cannot search for required records.,HIGH,HIGH_8
+Problem with API documentation enhancement,The team has identified that Add examples and descriptions to the API documentation.,LOW,LOW_12
+Add dark mode,Introduce a dark mode option in application settings.,LOW,LOW_1
+Reported problem - Production API outage,"Currently, The production API is unavailable and all incoming requests fail.",CRITICAL,CRITICAL_12
+Bug report: Payment page UI improvement,An issue has been reported where Improve the visual appearance of the payment page without changing payment functionality.,LOW,LOW_11
+Bug report: Add dark mode,An issue has been reported where Introduce a dark mode option in application settings.,LOW,LOW_1
+Issue reported: API outage,Users have reported that All production API requests are failing.,CRITICAL,CRITICAL_7
+Issue reported: Add dark mode,Users have reported that Introduce a dark mode option in application settings.,LOW,LOW_1
+Issue reported: Report generation failure,Users have reported that Users cannot generate important business reports.,HIGH,HIGH_7
+Problem with API errors affecting users,The team has identified that An important API endpoint fails for a subset of users while the remaining endpoints work.,HIGH,HIGH_12
+Reported problem - Pagination malfunction,"Currently, Pagination does not work correctly with large datasets.",MEDIUM,MEDIUM_3
+Problem with Delayed notifications,The team has identified that Email notifications are delivered later than expected.,MEDIUM,MEDIUM_4
+Pagination malfunction,Pagination does not work correctly with large datasets.,MEDIUM,MEDIUM_3
+Bug report: Complete database outage,An issue has been reported where The database is completely unavailable and every user is unable to access the application.,CRITICAL,CRITICAL_10
+Issue reported: Security breach,Users have reported that Unauthorized users have gained access to sensitive production data.,CRITICAL,CRITICAL_3
+Session timeout issue,Some users are logged out earlier than expected.,MEDIUM,MEDIUM_8
+Problem with Report generation failure,The team has identified that Users cannot generate important business reports.,HIGH,HIGH_7
+Checkout malfunction,The checkout feature is broken for many customers.,HIGH,HIGH_3
+Bug report: Improve UI responsiveness,An issue has been reported where Make the settings page layout more visually consistent.,LOW,LOW_9
+Occasional payment delay,Some payments take longer to process but eventually complete successfully.,MEDIUM,MEDIUM_11
+Bug report: Payment system outage,An issue has been reported where All customer payment transactions are failing.,CRITICAL,CRITICAL_2
+Reported problem - Checkout malfunction,"Currently, The checkout feature is broken for many customers.",HIGH,HIGH_3
+Bug report: Change placeholder text,An issue has been reported where Update the placeholder text in the search field.,LOW,LOW_6
+Problem with Incorrect search results,The team has identified that Search sometimes returns incomplete results.,MEDIUM,MEDIUM_2
+Bug report: Document upload failure,An issue has been reported where Many users cannot upload important documents.,HIGH,HIGH_0
+Payment page UI improvement,Improve the visual appearance of the payment page without changing payment functionality.,LOW,LOW_11
+Reported problem - Intermittent database errors,"Currently, Database connections fail for some requests but the application remains available to most users.",HIGH,HIGH_10
+Image loading delay,Images occasionally take too long to load.,MEDIUM,MEDIUM_9
+Problem with Production API outage,The team has identified that The production API is unavailable and all incoming requests fail.,CRITICAL,CRITICAL_12
+Issue reported: Intermittent timeout,Users have reported that Some requests occasionally time out but work after retrying.,MEDIUM,MEDIUM_1
+Reported problem - Checkout outage,"Currently, Customers cannot complete any purchases.",CRITICAL,CRITICAL_8
+Problem with Image loading delay,The team has identified that Images occasionally take too long to load.,MEDIUM,MEDIUM_9
+Profile update issue,Profile changes sometimes require a page refresh.,MEDIUM,MEDIUM_5
+Reported problem - Security breach,"Currently, Unauthorized users have gained access to sensitive production data.",CRITICAL,CRITICAL_3
+Filter malfunction,A dashboard filter occasionally displays incorrect results.,MEDIUM,MEDIUM_7
+Reported problem - Document upload failure,"Currently, Many users cannot upload important documents.",HIGH,HIGH_0
+Issue reported: Session timeout issue,Users have reported that Some users are logged out earlier than expected.,MEDIUM,MEDIUM_8
+Reported problem - Complete database outage,"Currently, The database is completely unavailable and every user is unable to access the application.",CRITICAL,CRITICAL_10
+Notification failure,Important notifications are not reaching users.,HIGH,HIGH_5
+Bug report: Notification failure,An issue has been reported where Important notifications are not reaching users.,HIGH,HIGH_5
+Issue reported: Checkout outage,Users have reported that Customers cannot complete any purchases.,CRITICAL,CRITICAL_8
+Reported problem - Notification failure,"Currently, Important notifications are not reaching users.",HIGH,HIGH_5
+Problem with Slow API response,"The team has identified that One non-critical API endpoint responds slightly slower than usual, but requests complete successfully and users can continue working.",MEDIUM,MEDIUM_6
+Issue reported: Intermittent database errors,Users have reported that Database connections fail for some requests but the application remains available to most users.,HIGH,HIGH_10
+Issue reported: Improve page spacing,Users have reported that Adjust spacing between dashboard sections.,LOW,LOW_4
+Bug report: Update documentation,An issue has been reported where Add examples and explanations to the documentation.,LOW,LOW_2
+Critical data loss,Important customer records have disappeared from production.,CRITICAL,CRITICAL_5
+Improve UI responsiveness,Make the settings page layout more visually consistent.,LOW,LOW_9
+Problem with Improve button styling,The team has identified that Update the visual styling of the submit button.,LOW,LOW_0
+Bug report: Payment processing error,"An issue has been reported where Some customers experience occasional payment declines, but retries usually succeed and checkout remains available.",HIGH,HIGH_1
+Reported problem - Payment infrastructure outage,"Currently, All payment requests are failing and no customer can complete a transaction.",CRITICAL,CRITICAL_11
+Bug report: Filter malfunction,An issue has been reported where A dashboard filter occasionally displays incorrect results.,MEDIUM,MEDIUM_7
+Reported problem - Add dark mode,"Currently, Introduce a dark mode option in application settings.",LOW,LOW_1
+Problem with Security breach,The team has identified that Unauthorized users have gained access to sensitive production data.,CRITICAL,CRITICAL_3
+Minor database latency,Database queries take slightly longer than usual but all requests complete successfully.,MEDIUM,MEDIUM_10
+Bug report: Production deployment failure,An issue has been reported where A deployment has made the entire service unavailable.,CRITICAL,CRITICAL_9
+Problem with Pagination malfunction,The team has identified that Pagination does not work correctly with large datasets.,MEDIUM,MEDIUM_3
+Problem with Notification failure,The team has identified that Important notifications are not reaching users.,HIGH,HIGH_5
+Reported problem - Profile update issue,"Currently, Profile changes sometimes require a page refresh.",MEDIUM,MEDIUM_5
+Slow API response,"One non-critical API endpoint responds slightly slower than usual, but requests complete successfully and users can continue working.",MEDIUM,MEDIUM_6
+Authentication errors,Users are frequently receiving login errors.,HIGH,HIGH_2
+Issue reported: Incorrect search results,Users have reported that Search sometimes returns incomplete results.,MEDIUM,MEDIUM_2
+Application unavailable,The application is unavailable for every customer.,CRITICAL,CRITICAL_4
+Issue reported: Application crashes,Users have reported that The application crashes during common operations.,HIGH,HIGH_6
+Issue reported: Authentication outage,Users have reported that No users can log into the application.,CRITICAL,CRITICAL_6
+Problem with Intermittent timeout,The team has identified that Some requests occasionally time out but work after retrying.,MEDIUM,MEDIUM_1
+Problem with Intermittent database errors,The team has identified that Database connections fail for some requests but the application remains available to most users.,HIGH,HIGH_10
+Issue reported: Occasional payment delay,Users have reported that Some payments take longer to process but eventually complete successfully.,MEDIUM,MEDIUM_11
+Issue reported: Payment system outage,Users have reported that All customer payment transactions are failing.,CRITICAL,CRITICAL_2
+Problem with Document upload failure,The team has identified that Many users cannot upload important documents.,HIGH,HIGH_0
+Reported problem - Update footer text,"Currently, Change the copyright information in the footer.",LOW,LOW_8
+Reported problem - API endpoint failure,"Currently, An important API endpoint is returning server errors.",HIGH,HIGH_4
+Issue reported: Notification failure,Users have reported that Important notifications are not reaching users.,HIGH,HIGH_5
+Bug report: Application unavailable,An issue has been reported where The application is unavailable for every customer.,CRITICAL,CRITICAL_4
+Problem with Application crashes,The team has identified that The application crashes during common operations.,HIGH,HIGH_6
+Problem with Improve UI responsiveness,The team has identified that Make the settings page layout more visually consistent.,LOW,LOW_9
+Problem with Payment page UI improvement,The team has identified that Improve the visual appearance of the payment page without changing payment functionality.,LOW,LOW_11
+Issue reported: API endpoint failure,Users have reported that An important API endpoint is returning server errors.,HIGH,HIGH_4
+Improve button styling,Update the visual styling of the submit button.,LOW,LOW_0
+Issue reported: Improve UI responsiveness,Users have reported that Make the settings page layout more visually consistent.,LOW,LOW_9
+Bug report: API outage,An issue has been reported where All production API requests are failing.,CRITICAL,CRITICAL_7
+Issue reported: Change placeholder text,Users have reported that Update the placeholder text in the search field.,LOW,LOW_6
+Problem with API endpoint failure,The team has identified that An important API endpoint is returning server errors.,HIGH,HIGH_4
+Database documentation update,Improve the documentation describing database configuration and setup.,LOW,LOW_10
+Reported problem - Image loading delay,"Currently, Images occasionally take too long to load.",MEDIUM,MEDIUM_9
+Checkout outage,Customers cannot complete any purchases.,CRITICAL,CRITICAL_8
+Issue reported: Update documentation,Users have reported that Add examples and explanations to the documentation.,LOW,LOW_2
+Bug report: Slow API response,An issue has been reported where A non-critical API endpoint responds slowly but remains functional for all users.,MEDIUM,MEDIUM_12
+Issue reported: Production server outage,Users have reported that The production server is completely unavailable.,CRITICAL,CRITICAL_0
+Problem with Add tooltips,The team has identified that Add helpful tooltips to settings icons.,LOW,LOW_5
+Problem with Update documentation,The team has identified that Add examples and explanations to the documentation.,LOW,LOW_2
+Issue reported: Payment processing error,"Users have reported that Some customers experience occasional payment declines, but retries usually succeed and checkout remains available.",HIGH,HIGH_1
+Delayed notifications,Email notifications are delivered later than expected.,MEDIUM,MEDIUM_4
+API documentation enhancement,Add examples and descriptions to the API documentation.,LOW,LOW_12
+Issue reported: Payment infrastructure outage,Users have reported that All payment requests are failing and no customer can complete a transaction.,CRITICAL,CRITICAL_11
+Problem with Search functionality broken,The team has identified that Many users cannot search for required records.,HIGH,HIGH_8
+Reported problem - Database documentation update,"Currently, Improve the documentation describing database configuration and setup.",LOW,LOW_10
+Bug report: Image loading delay,An issue has been reported where Images occasionally take too long to load.,MEDIUM,MEDIUM_9
+Issue reported: Filter malfunction,Users have reported that A dashboard filter occasionally displays incorrect results.,MEDIUM,MEDIUM_7
+Reported problem - Minor database latency,"Currently, Database queries take slightly longer than usual but all requests complete successfully.",MEDIUM,MEDIUM_10
+Complete database outage,The database is completely unavailable and every user is unable to access the application.,CRITICAL,CRITICAL_10
+Reported problem - Incorrect search results,"Currently, Search sometimes returns incomplete results.",MEDIUM,MEDIUM_2
+Issue reported: Database failure,Users have reported that The production database is down and no users can access the application.,CRITICAL,CRITICAL_1
+Bug report: Delayed notifications,An issue has been reported where Email notifications are delivered later than expected.,MEDIUM,MEDIUM_4
+Bug report: API errors affecting users,An issue has been reported where An important API endpoint fails for a subset of users while the remaining endpoints work.,HIGH,HIGH_12
+Bug report: Payment infrastructure outage,An issue has been reported where All payment requests are failing and no customer can complete a transaction.,CRITICAL,CRITICAL_11
+Payment infrastructure outage,All payment requests are failing and no customer can complete a transaction.,CRITICAL,CRITICAL_11
+Reported problem - Application unavailable,"Currently, The application is unavailable for every customer.",CRITICAL,CRITICAL_4
+Problem with Database failure,The team has identified that The production database is down and no users can access the application.,CRITICAL,CRITICAL_1
+Reported problem - Database failure,"Currently, The production database is down and no users can access the application.",CRITICAL,CRITICAL_1
+Reported problem - Search functionality broken,"Currently, Many users cannot search for required records.",HIGH,HIGH_8
+Issue reported: Delayed notifications,Users have reported that Email notifications are delivered later than expected.,MEDIUM,MEDIUM_4
+Problem with Application unavailable,The team has identified that The application is unavailable for every customer.,CRITICAL,CRITICAL_4
+Bug report: Intermittent timeout,An issue has been reported where Some requests occasionally time out but work after retrying.,MEDIUM,MEDIUM_1
+Reported problem - Change placeholder text,"Currently, Update the placeholder text in the search field.",LOW,LOW_6
+Bug report: Occasional payment delay,An issue has been reported where Some payments take longer to process but eventually complete successfully.,MEDIUM,MEDIUM_11
+Reported problem - Session timeout issue,"Currently, Some users are logged out earlier than expected.",MEDIUM,MEDIUM_8
+Issue reported: Critical data loss,Users have reported that Important customer records have disappeared from production.,CRITICAL,CRITICAL_5
+Reported problem - Occasional payment delay,"Currently, Some payments take longer to process but eventually complete successfully.",MEDIUM,MEDIUM_11
+API outage,All production API requests are failing.,CRITICAL,CRITICAL_7
+Bug report: Database connection errors,"An issue has been reported where The application intermittently loses database connections for a subset of requests, while most users can continue working.",HIGH,HIGH_9
+API errors affecting users,An important API endpoint fails for a subset of users while the remaining endpoints work.,HIGH,HIGH_12
+Incorrect search results,Search sometimes returns incomplete results.,MEDIUM,MEDIUM_2
+Problem with Payment system outage,The team has identified that All customer payment transactions are failing.,CRITICAL,CRITICAL_2
+Problem with Payment infrastructure outage,The team has identified that All payment requests are failing and no customer can complete a transaction.,CRITICAL,CRITICAL_11
